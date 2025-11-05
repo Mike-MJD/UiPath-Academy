@@ -96,7 +96,7 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1201,562.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1201,666.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dt_Card" />
       <Variable x:TypeArguments="sd:DataTable" Name="dt_Cash" />
@@ -408,7 +408,7 @@
         </sap:WorkflowViewStateService.ViewState>
       </uasc:BuildCollection>
     </Sequence>
-    <ui:BuildDataTable DataTable="[dt_Analiza]" DisplayName="Stworzenie docelowej tabelki" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Miesiac&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xD;&#xA;                  &lt;xs:simpleType&gt;&#xD;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xD;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xD;&#xA;                    &lt;/xs:restriction&gt;&#xD;&#xA;                  &lt;/xs:simpleType&gt;&#xD;&#xA;                &lt;/xs:element&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Wydatki&quot; msdata:Caption=&quot;&quot; type=&quot;xs:int&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Procent&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Miesiac&gt;styczeń&lt;/Miesiac&gt;&#xD;&#xA;    &lt;Wydatki&gt;1&lt;/Wydatki&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Miesiac&gt;luty&lt;/Miesiac&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Miesiac&gt;marzec&lt;/Miesiac&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Miesiac&gt;kwiecień&lt;/Miesiac&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Miesiac&gt;maj&lt;/Miesiac&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Miesiac&gt;czerwiec&lt;/Miesiac&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Miesiac&gt;lipiec&lt;/Miesiac&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Miesiac&gt;sierpień&lt;/Miesiac&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Miesiac&gt;wrzesień&lt;/Miesiac&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Miesiac&gt;październik&lt;/Miesiac&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Miesiac&gt;listopad&lt;/Miesiac&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Miesiac&gt;grudzień&lt;/Miesiac&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;&lt;/NewDataSet&gt;">
+    <ui:BuildDataTable DataTable="[dt_Analiza]" DisplayName="Stworzenie docelowej tabelki" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Miesiac&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Wydatki&quot; msdata:Caption=&quot;&quot; type=&quot;xs:int&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Procent&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Miesiac&gt;styczeń&lt;/Miesiac&gt;&#xA;    &lt;Wydatki&gt;1&lt;/Wydatki&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Miesiac&gt;luty&lt;/Miesiac&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Miesiac&gt;marzec&lt;/Miesiac&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Miesiac&gt;kwiecień&lt;/Miesiac&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Miesiac&gt;maj&lt;/Miesiac&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Miesiac&gt;czerwiec&lt;/Miesiac&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Miesiac&gt;lipiec&lt;/Miesiac&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Miesiac&gt;sierpień&lt;/Miesiac&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Miesiac&gt;wrzesień&lt;/Miesiac&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Miesiac&gt;październik&lt;/Miesiac&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Miesiac&gt;listopad&lt;/Miesiac&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Miesiac&gt;grudzień&lt;/Miesiac&gt;&#xA;  &lt;/TableName&gt;&#xA;&lt;/NewDataSet&gt;">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -430,141 +430,6 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <ui:ForEach x:TypeArguments="sd:DataTable" CurrentIndex="{x:Null}" DisplayName="Sumowanie wg miesiecy" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="ForEach`1_3" Values="[DataTables]">
-      <ui:ForEach.Body>
-        <ActivityAction x:TypeArguments="sd:DataTable">
-          <ActivityAction.Argument>
-            <DelegateInArgument x:TypeArguments="sd:DataTable" Name="currentDataTable" />
-          </ActivityAction.Argument>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="486,569" sap2010:WorkflowViewState.IdRef="Sequence_23">
-            <Sequence.Variables>
-              <Variable x:TypeArguments="x:Double" Name="SumVal" />
-              <Variable x:TypeArguments="x:Double" Name="ProVal" />
-              <Variable x:TypeArguments="x:String" Name="Miesiac" />
-            </Sequence.Variables>
-            <sap:WorkflowViewStateService.ViewState>
-              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-              </scg:Dictionary>
-            </sap:WorkflowViewStateService.ViewState>
-            <ui:MultipleAssign DisplayName="Zerowanie zmiennych" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
-              <ui:MultipleAssign.AssignOperations>
-                <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
-                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
-                    <ui:AssignOperation.To>
-                      <OutArgument x:TypeArguments="x:Double">[SumVal]</OutArgument>
-                    </ui:AssignOperation.To>
-                    <ui:AssignOperation.Value>
-                      <InArgument x:TypeArguments="x:Double">0</InArgument>
-                    </ui:AssignOperation.Value>
-                  </ui:AssignOperation>
-                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
-                    <ui:AssignOperation.To>
-                      <OutArgument x:TypeArguments="x:Double">[ProVal]</OutArgument>
-                    </ui:AssignOperation.To>
-                    <ui:AssignOperation.Value>
-                      <InArgument x:TypeArguments="x:Double">0</InArgument>
-                    </ui:AssignOperation.Value>
-                  </ui:AssignOperation>
-                </scg:List>
-              </ui:MultipleAssign.AssignOperations>
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-            </ui:MultipleAssign>
-            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[currentDataTable]" DisplayName="Obliczenia" sap:VirtualizedContainerService.HintSize="452,290" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
-              <ui:ForEachRow.Body>
-                <ActivityAction x:TypeArguments="sd:DataRow">
-                  <ActivityAction.Argument>
-                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
-                  </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_24">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="MultipleAssign_3">
-                      <ui:MultipleAssign.AssignOperations>
-                        <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
-                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
-                            <ui:AssignOperation.To>
-                              <OutArgument x:TypeArguments="x:Double">[SumVal]</OutArgument>
-                            </ui:AssignOperation.To>
-                            <ui:AssignOperation.Value>
-                              <InArgument x:TypeArguments="x:Double">[SumVal + CDbl(CurrentRow("Value"))]</InArgument>
-                            </ui:AssignOperation.Value>
-                          </ui:AssignOperation>
-                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
-                            <ui:AssignOperation.To>
-                              <OutArgument x:TypeArguments="x:Double">[ProVal]</OutArgument>
-                            </ui:AssignOperation.To>
-                            <ui:AssignOperation.Value>
-                              <InArgument x:TypeArguments="x:Double">[ProVal + CDbl(CurrentRow("Procent"))]</InArgument>
-                            </ui:AssignOperation.Value>
-                          </ui:AssignOperation>
-                        </scg:List>
-                      </ui:MultipleAssign.AssignOperations>
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                    </ui:MultipleAssign>
-                  </Sequence>
-                </ActivityAction>
-              </ui:ForEachRow.Body>
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-            </ui:ForEachRow>
-            <ui:UpdateRowItem ColumnIndex="{x:Null}" ColumnName="Wydatki" DisplayName="Wydatki" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="UpdateRowItem_8" Row="[dt_Analiza.Rows(Index)]" Value="[SumVal]">
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-            </ui:UpdateRowItem>
-            <ui:UpdateRowItem ColumnIndex="{x:Null}" ColumnName="Procent" DisplayName="Procent" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="UpdateRowItem_9" Row="[dt_Analiza.Rows(Index)]" Value="[ProVal]">
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-            </ui:UpdateRowItem>
-            <Assign DisplayName="Ustawienie indexu" sap:VirtualizedContainerService.HintSize="452,48" sap2010:WorkflowViewState.IdRef="Assign_9">
-              <Assign.To>
-                <OutArgument x:TypeArguments="x:Int32">[Index]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="x:Int32">[Index + 1]</InArgument>
-              </Assign.Value>
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-            </Assign>
-          </Sequence>
-        </ActivityAction>
-      </ui:ForEach.Body>
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-    </ui:ForEach>
     <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" DataTable="[dt_Analiza]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Arkusz 1" WorkbookPath="Data\Wydatki.xlsx">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
